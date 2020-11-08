@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap">
+    <title>GIF.OS</title>
+</head>
+
+<body data-theme="sailor-day">
+    <header>
+        <h1>¡Bienvenidos/as a Guifos.com! ------Donde los gifs están.//////Número de visitas 27.062.004</h1>
+    </header>
+
+    <section class="wrap-margin-control">
+        <section class="logo-and-buttons">
+
+            <a class="logo-container" id="logo" href="index.html">
+
+            </a>
+
+            <div class="buttons-container">
+
+                <div class="create-gif-container">
+                    <div class="create-button" onclick="location.href='misguifos.html';">
+                        <h2>Crear Guifos</h2>
+                    </div>
+                </div>
+
+                <div class="choose-theme-container">
+                    <div class="active-buttons">
+                        <div class="big-button">
+                            <h2>Elegir tema</h2>
+                        </div>
+                        <div class="arrow-button" id="theme-button">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-guifos-container" onclick="location.href='misguifos.html';">
+                    <h2><span class="m-for-my-guifos">M</span>is Guifos</h2>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------SECCION FANTASMA----------------------------------------------->
+        <section class="inactive-buttons-container" id="inactive-buttons-container">
+            <div class="logoempty1">
+                <!--<p>LOGO</p>-->
+            </div>
+            <div class="inactive-buttons-big-div">
+
+                <div class="creategifempty2">
+                    <!--<p>CREAR GIF</p>-->
+                </div>
+                <div class="inactive-buttons">
+                    <div class="wrap-inactive-buttons">
+                        <div class="theme-day" id="sailor-day">
+                            <h2><span class="s-sailor">S</span>ailor Day</h2>
+                        </div>
+                        <div class="theme-night" id="sailor-night">
+                            <h2><span class="s-sailor">S</span>ailor Night</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="emptymisguifos4">
+                    <!--<p>MIS GUIFOS</p>-->
+                </div>
+            </div>
+        </section>
+        <!-----------------------------------SECCION FANTASMA------------------------------------------------->
+
+        <section class="search-bar-section">
+            <div class="search-bar-container">
+                <div class="search-bar-header-title">
+                    <h2>Buscar</h2>
+                </div>
+                <div class="bar-and-button-container">
+                    <input type="text" id="search-bar" class="search-bar" placeholder="Ejemplo de búsqueda">
+                    <button id="search-button" class="search-button"><i class="fas fa-search"></i>Buscar</button>
+                </div>
+            </div>
+
+
+        </section>
+
+        <div class="search-autocomplete" id="search-autocomplete"></div>
+
+        <section class="today-section-container">
+
+            <div class="today-title">
+                <h1 class="today-title-bar">Hoy te sugerimos:</h1>
+            </div>
+
+            <div class="today-options" id="today-options">
+                <!-- <div class="nice-api-gifs-container">
+                    <div class="header-gif" id="header-gif1">
+                        <div class="gif-title">
+                            <h2>holi</h2>
+                        </div>
+                        <div class="close-gif">
+                            <h2>x</h2>
+                        </div>
+                    </div>
+                    <div class="api-gif" id="api-gif">
+                        <img class="gif" src="assets/loading.gif" alt="your-gif-goes-here">
+                        <button class="button-inside-gif">Ver mas...</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+
+        <section class="trends-section-container">
+
+            <div class="trends-title">
+                <h1 id="trends-tittle-bar" class="trends-title-bar">Tendencias:</h1>
+            </div>
+
+            <div class="trends-gif-grid-container" id="trends-gif-grid-container">
+               <!-- <div class="trends-options">
+                    <div class="trends-nice-api-gifs-container">
+                        <img class="gif" src="/assets/loading.gif" alt="your-gif-goes-here">
+                        <div class="footer-gif" id="footer-gif">
+                            <h2>...</h2>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </section>
+
+    </section>
+
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/utils.js"></script>
+    <script src="/scripts/misguifos.js"></script>
+</body>
+
+</html>

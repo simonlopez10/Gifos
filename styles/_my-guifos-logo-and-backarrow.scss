@@ -1,0 +1,22 @@
+.logo-and-backarrow {
+    display: flex;
+    height: 10vh;
+    background-color: blueviolet;
+  
+    div{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .backarrow-container{
+        background-color: chartreuse;
+        margin-right: 0.8rem;
+        cursor: pointer;
+    }
+    .my-guifos-logo-container{
+        background: var(--logo) no-repeat;
+        background-color: crimson;
+        cursor: pointer;
+    }
+}

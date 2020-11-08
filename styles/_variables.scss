@@ -1,0 +1,61 @@
+
+.wrap-margin-control {
+    width: 85%;
+   // border: 3px solid salmon;
+    margin-left: 7.5%;
+}
+
+$chakra-font:'Chakra Petch', sans-serif;
+$chakra-light: #FFFFFF;
+
+body{
+    font-family:$chakra-font;
+    font-size: 16px;
+    background-color: var(--backgroundtheme);
+}
+
+
+[data-theme="sailor-day"] {
+    --backgroundtheme:   #FFFFFF;
+    --chakrabuttoncolor: #110038; 
+    --gradient1:         #F7C9F3;
+    --gradient2:         #4180F6;
+    --buttoncolor:       #F7C9F3;
+    --buttonhover:       #E6BBE2;
+    --wrapboxes:         #E6E6E6;
+    --themebutton:       #F0F0F0;
+    --themebuttonhover:  #E6DCE4;
+    --themebuttonshadow: #B4B4B4;
+    --chakrabuttonthemes:#110038; 
+    --mygifshover:       #110038;
+    --searchbutton:      #B4B4B4;
+    --searchbuttonhover: #F7C9F3;
+    --logo: url("/assets/gifOF_logo.png");
+    --titlebordersection: #F7C9F3;
+    --buttoninsidegif:    #4180F6;
+    --binsidegifhover:    #3A72DB;
+    --binsidegifborder:   #4C2F99;
+}
+
+[Data-theme="sailor-night"] {
+    --backgroundtheme:    #110038;
+    --chakrabuttoncolor:  #FFFFFF;
+    --gradient1:          #EE3EFE;
+    --gradient2:          #2E32FB;
+    --buttoncolor:        #EE3EFE;
+    --buttonhover:        #A72CB3;
+    --wrapboxes:          #B4B4B4;
+    --themebutton:        #CCCCCC;
+    --themebuttonhover:   #2E32FB;
+    --themebuttonshadow:  #B4B4B4;
+    --chakrabuttonthemes: #110038; 
+    --mygifshover:        #FFFFFF;
+    --searchbutton:       #B4B4B4;
+    --searchbuttonhover:  #EE3EFE;
+    --logo: url("/assets/gifOF_logo_dark.png");
+    --titlebordersection: #2E32FB;
+    --buttoninsidegif:    #2E32FB;
+    --binsidegifhover:    #110038;
+    --binsidegifborder:   #4C2F99;
+}
+

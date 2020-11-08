@@ -1,0 +1,89 @@
+.create-video-gif-info {
+    background-color: crimson;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-size: 14px;
+    }
+
+    .wrap-info-container{
+        width: 45%;
+        height: 90%;
+        //background-color: var(--wrapboxes);
+        //box-shadow: inset -2px -2px 0 0 var(--themebuttonshadow), inset 2px 2px 0 0 #FFFFFF;
+        background-color: #E6E6E6;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+
+        .info-header{
+            width: 100%;
+            height: 7%;
+            background-color: darkmagenta;
+            display: flex;
+            align-items: center;
+            h2{
+                margin-left: 5px;
+            }
+            //background:linear-gradient(270deg, var(--gradient1) 0%, var(--gradient2) 100%);
+
+        }
+
+        .info-title-icon-container{
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            .icon-create-your-guifos{
+
+                display: flex;
+                width: 10%;
+                background-color: darkorange;
+                align-items: center;
+                justify-content: center;
+                img{
+                    margin-left: 5px;
+                }
+            }
+            .title-create-yout-guigfos{
+                width: 90%;
+                background-color: indianred;
+                font-weight: bold;
+            }
+        }
+
+        .step-by-step-creation-guifos{
+            background-color: khaki;
+            height: 60%;
+            width: 80%;
+            margin-left: 10%;
+            p{
+                margin-bottom: 12px;
+                margin-top: 5px;
+            }
+        }
+
+        .create-your-guifos-buttons{
+            height: 23%;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            button{
+                color: var(--chakrabuttoncolor);
+                background-color: var(--buttoncolor);
+                width: 25%;
+                height: 50%;
+                box-shadow:  inset -1px -1px 0 0 var(--buttonhover), inset 1px 1px 0 0 #FFFFFF;
+                margin-left: 10px;
+                margin-right: 20px;
+                cursor: pointer;
+                &:hover{
+                    background-color: var(--buttonhover);
+                    border: 1px var(--mygifshover) dotted;
+                }
+            }
+        }
+    }
+}

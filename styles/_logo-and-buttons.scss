@@ -1,0 +1,143 @@
+.logo-and-buttons {
+    display: flex;
+    height: 10vh;
+    .logo-container{
+        width: 60%;
+        margin-top: 0.25rem;
+        display: flex;
+        align-items: center;
+        background: var(--logo) no-repeat;
+    }
+
+    .my-guifos-container {
+        display: flex ;
+        cursor: pointer;
+        h2 {
+            color: var(--chakrabuttoncolor);
+            &:hover{
+                border: 1px var(--mygifshover) dotted ;
+            }
+        }
+        span{
+            text-decoration: underline;
+        }
+    }
+
+    .buttons-container{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+
+        div{
+            width: 33.33%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .create-gif-container{
+            //background-color: springgreen;
+            .create-button{
+                color: var(--chakrabuttoncolor);
+                background-color: var(--buttoncolor);
+                width: 80%;
+                height: 55%;
+                box-shadow:  inset -1px -1px 0 0 var(--buttonhover), inset 1px 1px 0 0 #FFFFFF;
+                cursor: pointer;
+                &:hover{
+                    background-color: var(--buttonhover);
+                    border: 1px var(--mygifshover) dotted;
+                }
+            }
+         
+        }
+
+        .choose-theme-container{
+            .active-buttons{
+                width: 100%;
+                height: 55%;
+                .big-button{
+                    color: var(--chakrabuttoncolor);
+                    width: 85%;
+                    height: 100%;
+                    cursor: pointer;
+                    background-color: var(--buttoncolor);
+                    box-shadow:  inset -1px -1px 0 0 var(--buttonhover), inset 1px 1px 0 0 #FFFFFF;
+                    &:hover{
+                        background-color: var(--buttonhover);
+                        border: 1px var(--mygifshover) dotted;
+                    }
+                }
+                .arrow-button{
+                    color: var(--chakrabuttoncolor);
+                    background-color: var(--buttoncolor);
+                    height: 100%;
+                    cursor: pointer;
+                    box-shadow:  inset -1px -1px 0 0 var(--buttonhover), inset 1px 1px 0 0 #FFFFFF;
+                    &:hover{
+                        background-color: var(--buttonhover);
+                        border: 1px var(--mygifshover) dotted;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.inactive-buttons-container{
+   display:none;
+    .logoempty1{
+        width: 60%;
+        height: 15vh;
+        background-color: var(--backgroundtheme);
+    }
+
+    .inactive-buttons-big-div{
+        width: 40%;
+        display: flex;
+        div{
+            width: 33.33%;
+        }
+        .creategifempty2{
+            background-color: var(--backgroundtheme);
+        }
+
+        .inactive-buttons{
+            background-color: var(--backgroundtheme);
+            .wrap-inactive-buttons{
+                width: 100%;
+                height: 110%;
+                background-color: var(--wrapboxes);
+                transform: translate(0, -14%);
+                display: block;
+                box-shadow: inset -2px -2px 0 0 var(--themebuttonshadow), inset 2px 2px 0 0 #FFFFFF;
+                div{
+                    background-color:  var(--themebutton);
+                    width: 90%;
+                    height: 40%;
+                    margin-left: 5%;
+                    transform: translate(0,15%);
+                    margin-bottom: 5%;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    box-shadow: inset -2px -2px 0 0 var(--themebuttonshadow), inset 2px 2px 0 0 #FFFFFF;
+                   &:hover{
+                       background-color:  var(--themebuttonhover);
+                   }
+                    h2{
+                        margin-left: 0.3rem;
+                        color: var(--chakrabuttonthemes);
+                        span{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .emptymisguifos4{
+            background-color: var(--backgroundtheme);
+        }
+    }
+}
